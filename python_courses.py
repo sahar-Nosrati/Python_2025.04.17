@@ -1,44 +1,46 @@
-import random
+# first_name = "nastaran"
+# convert_string_to_uppercase = first_name.upper()
+# convert_string_to_uppercase = first_name.upper()
+# convert_string_to_lowecase = convert_string_to_uppercase.lower()
 
-number = 86.6
-print(type(number))
 
-first_name = "Sahar"
-print(type(first_name))
+# print(convert_string_to_uppercase)
+# print(convert_string_to_lowecase)
 
-boolean_example = True
-print(type(boolean_example))
+# street_name = "       sheykhsafi        "
+# removed_whitespace_of_street_name = street_name.strip()
+# print(removed_whitespace_of_street_name)
+# print(street_name)
 
-fruits = ["cherry", "peach"]
-print(type(fruits))
+# cities = ["warsaw", "Tehran", "seol", "berlin"]
+# modified_cities = []
 
-numbers_sequence = (1,2,3,4)
-print(type(numbers_sequence))
+# for element in cities:
+#   if element == "Tehran" :
+#     modified_cities.append(element.replace("Tehran", "Vienna"))
+#     continue
+#   modified_cities.append(element)
 
-apartment = {
-  "location" :"Kargar", 
-  "No" : 25
-}
-print(type(apartment["No"]))
+# print (modified_cities)
 
-number_range = range(6);
-print(number_range) 
 
-for element in number_range :
-  print(element)
+# modified_tehran_city = cities[1].replace("Tehran", "vienna")
+# print(modified_tehran_city)
+# print(cities)
 
-print(random.randrange(1,10));
+# nice_sentence_text = "The sky, at sunset, looked like a carnivorous flower."
 
-multiple_lines_string = """Lorem ipsum"""
+# splitted_nice_sentence = nice_sentence_text.split(" ")
+# print(splitted_nice_sentence)
 
-print(multiple_lines_string[0])
+# first_name = "Nastaran"
+# last_name = "Minaei"
 
-for element in multiple_lines_string :
-  print(element)
+# full_name = first_name + " " +last_name
+# print(full_name)
 
-print(len(multiple_lines_string))
-print("ipsum" in multiple_lines_string)
-print("ipsum" not in multiple_lines_string)
-print(multiple_lines_string[0:4])
-print(multiple_lines_string[:8])
-print(multiple_lines_string[8:])
+replacing_flower_name = "Rose"
+nice_sentence_text = "The sky, at sunset, looked like a carnivorous flower."
+
+f_string_sentence = f"The sky, at sunset, looked like a carnivorous and {replacing_flower_name} flower."
+print(f_string_sentence)

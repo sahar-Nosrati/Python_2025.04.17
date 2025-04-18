@@ -58,3 +58,20 @@
     print(b[2:5]) -> 2-> include, 5-> exclude
     print(b[:5]) -> from start to 5, 5-> exclude
     print(b[0:]) -> from start to end, 5-> exclude
+
+- upper() -> convert string to uppercase
+- lower() -> convert string to lowercase
+
+- append() -> add (append) new element to ene of list (equal push in js)
+- strip() -> remove white space in string 
+- replace() -> replace a string to another string 
+- split() -> separate string to substring by specified separator
+
+
+- combine strings and numbers by using f-strings or the format() method!
+- To specify a string as an f-string ->  simply put an f in front of the string literal, and add curly brackets {} as placeholders for variables and other operations.
+
+- A placeholder can include a modifier to format the value.
+- modifier for number -> adding a colon : followed by a legal formatting type, like .2f -> fixed intiger number with 2 decimals -> example : 
+  - price = 59
+    txt = f"The price is {price:.2f} dollars"

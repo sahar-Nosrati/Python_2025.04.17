@@ -1,2 +1,2 @@
 # Learning Python
-  - study w3schools Next study : modify string
+  - Continue studying: Next study will be started from Python - Escape Characters
